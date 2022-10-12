@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "udacity-tf-tscotto1-west1"
+     bucket = "udacity-tf-tscotto-west-12"
      key    = "terraform/terraform.tfstate"
      region = "us-west-1"
    }
